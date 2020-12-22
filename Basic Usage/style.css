@@ -1,5 +1,41 @@
 /* ID */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Roboto;
+}
+nav {
+    background-color: rgb(48, 48, 48);
+    padding: 10px;
+}
 
+nav ul  {
+    /* Alinhar itens a direita */
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+li {
+    padding: 10px;
+    list-style: none;
+    text-transform: uppercase;   
+}
+li .navbar {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+li .navbar:hover {
+    background: violet;
+    
+}
 /* TAG */
 
 /* CLASS */
+
+
+/*Adaptar a tela para desktop */
+@media (min-width: 1100px){
+
+}
